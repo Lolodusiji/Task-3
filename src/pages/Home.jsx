@@ -9,7 +9,7 @@ import { SortableItem } from "../component/SortableItem";
 import Header from "../component/Header";
 import LoadingSkeleton from "../component/LoadingSkeleton";
 import { toast } from "react-toastify";
-import Navbar from '../component/NavBar';
+// import Navbar from '../component/NavBar';
 
 const Home = () => {
     const [items, setItems] = useState([]);
@@ -65,7 +65,7 @@ const Home = () => {
   }
   return (
     <div className="w-full">
-    <Navbar />
+    {/* <Navbar /> */}
     <Header text={searchTerm} textState={setSearchTerm} />
     {!isLoading ? (
       <DndContext
