@@ -1,10 +1,13 @@
-import React from 'react'
-import Auth from '../component/Auth'
+// import React from 'react'
+// // import Auth from '../component/Auth'
 
 const Login = () => {
   return (
-    <Auth />
-  )
-}
+    <>
+      {/* <Auth /> */}
+      <div>Hello</div>
+    </>
+  );
+};
 
-export default Login
+export default Login;
